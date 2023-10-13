@@ -1,0 +1,106 @@
+header
+{
+    background-color: black;
+    height: 90px;
+}
+#header-nav
+{
+    
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: top;
+}
+
+h2{
+    text-shadow:5px 5px 5px gray;
+    color: black;
+    font-weight: bolder;
+}
+a
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(239, 231, 231);
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10%;
+    padding-top: 17 px ;
+}
+.card
+{ 
+    margin-left:35% ;
+    margin-top: 100px;
+    height: 500px;
+    width:500px;
+    border: 2px solid rgb(47, 75, 77);
+    border-radius: 0px 20px 0px 20px;
+    display: inline-block;
+    color: aliceblue;
+    backdrop-filter: blur(100px);
+}
+.card .form-head
+{
+   margin-top: 5px;
+}
+.card .form-textbox
+{
+   margin-top: 5px;
+   margin-left: 10px;
+}
+.card .form-textbox #one
+{
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 10px 40px 15px;
+    border:none;
+   
+}
+
+.form-textbox #one
+{
+    margin-left: 40%;
+    border-radius: 10px;
+    align-items: center;
+    color:rgb(9, 9, 9);
+    margin-left: 10%;
+    transition: box-shadow 1s;
+}
+.card .form-textbox #not
+{
+    color: rgb(52, 52, 225);
+    margin-left: 50%;
+    text-decoration: underline;
+}
+#one:hover
+{
+box-shadow: 5px 5px 5px 5px rgb(47, 75, 77);
+border: 1px solid rgb(47, 75, 77);
+}
+
+.form-btn #two 
+{
+    margin-top: 30px;
+    margin-left:20%;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 10px 20px 10px;
+    background-color: transparent;
+    color: rgb(70, 68, 68);
+    transition: background-color 2s;
+}
+#two:hover
+{
+    background-color:rgb(64, 66, 67);
+    color: rgb(251, 251, 251);
+  
+}
+.form-btn #two:active
+{
+    background-color: rgb(203, 217, 203);
+}
+body
+{
+      
+    background-image:url(./Assets/background.gif);
+}

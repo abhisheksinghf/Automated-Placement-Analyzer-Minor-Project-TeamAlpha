@@ -1,0 +1,227 @@
+header
+{
+    margin:0px;
+    display: flex;
+    height: 100px;
+    background-color: rgb(23, 21, 21);
+    align-items: center; 
+     
+}
+body{
+    background-image: url(./Assets/mainbg.jpg);  
+ background-repeat:round;
+ background-attachment: fixed;
+ overflow: -moz-hidden-unscrollable;
+}
+#logo
+{
+    width: 100px;
+    margin-left: 50px;
+    color: white;
+    text-shadow: 5px 5px 5px  rgb(68, 67, 61);
+    font-size: 40px;
+}
+#logo:hover {
+    animation: Shake 0.8s ;
+}   
+a{
+
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    color:transparent;
+    text-shadow: 5px 5px 5px silver;
+    transition: color 2s; 
+}
+a:hover
+{
+    
+    color:rgb(217, 207, 207);
+}
+a:active
+{
+    color: 3s;
+}
+.list
+{
+   margin-left: 30%;
+    float: left;
+}
+li{
+  
+    float: left;
+    padding: 15px;
+    display: block;
+}
+.cards
+{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 250px 250px ;
+    column-gap: 25px;
+    row-gap: 20px;
+    margin-top:500px ;
+    margin-left: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+.one
+{
+    display: grid; 
+    overflow: hidden;  
+    border-radius: 20px;
+    transition: box-shadow 2s;
+    padding-left: 50px;
+    margin-right:20px ;
+    color: white;
+    text-align: center;
+    transition: backdrop-filter 3s;
+}
+.one:hover
+{
+    box-shadow: 5px 5px 5px 5px gray;
+    text-shadow: 1px 2px 4px gold;
+    font-weight: lighter;
+    backdrop-filter: blur(10px); 
+}
+.one #imgs
+{
+    padding-left: 30%;
+    padding-right: 40%;
+    align-items: center;
+    border-radius:5px 5px 5px 5px ;
+    margin-bottom: 10px;
+}
+.two
+{
+    
+    /* border: 2px rgb(64, 220, 228) solid; */
+    display: grid; 
+    overflow: hidden;  
+    border-radius: 20px;
+    transition: box-shadow 2s;
+    padding-left: 50px;
+    margin-right:20px ;
+    color: white;
+    transition: backdrop-filter 3s;
+}
+.two:hover
+{
+    box-shadow: 5px 5px 5px 5px gray;
+    text-shadow: 1px 2px 4px gold;
+    backdrop-filter: blur(10px); 
+}
+.two #imgs
+{
+    padding-top: 50px;
+    padding-left: 30%;
+    padding-right: 40%;
+    align-items: center;
+    border-radius:5px 5px 5px 5px ;
+    margin-bottom: 10px;
+}
+.three
+{
+    display: grid;
+    column-gap: 120px;
+    padding-left: 50px;
+    border-radius: 20px;
+    color: white;
+    transition: box-shadow 2s;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: backdrop-filter 3s;
+}
+.three:hover{
+    box-shadow: 5px 5px 5px 5px gray;
+    text-shadow: 1px 2px 4px gold;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(50px);
+    backdrop-filter: blur(10px);  
+}
+.three #imgs
+{
+    padding-left: 30%;
+    padding-right: 40%;
+    align-items: center;
+    border-radius:5px 5px 5px 5px ;
+    margin-bottom: 10px;
+}
+.four
+{
+    display: grid;
+    column-gap: 120px;
+    border-radius: 20px;
+    padding-left: 50px;
+    transition: box-shadow 2s;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+    transition: backdrop-filter 3s;
+    margin-left:50px ;
+}
+.four:hover
+{
+    box-shadow: 5px 5px 5px 5px gray;
+    color:white;
+    text-shadow: 1px 2px 4px gold;
+    backdrop-filter: blur(10px); 
+}
+.four #imgs
+{
+    padding-left: 30%;
+    padding-right: 40%;
+    align-items: center;
+    border-radius:5px 5px 5px 5px ;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.one:hover, .two:hover, .three:hover, .four:hover {
+    animation: Shake 0.8s ;
+}
+@keyframes Shake {
+    0%, 100% { transform: translateX(0); }
+    10% { transform: translateX(-2px); }
+    20% { transform: translateX(2px); }
+    30% { transform: translateX(-2px); }
+    40% { transform: translateX(2px); }
+    50% { transform: translateX(-2px); }
+    60% { transform: translateX(2px); }
+    70% { transform: translateX(-2px); }
+    80% { transform: translateX(2px); }
+    90% { transform: translateX(-2px); }
+}
+footer{
+    margin-top:50%;
+    background-color:rgba(10, 10, 12, 6);
+    color:rgb(183, 180, 176) ;
+    height: 90px;
+    overflow: hidden;
+    text-align: center;
+}
+.social {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 6s;
+  }
+  .social a{
+    font-size: 30px;
+    color: #F4FFFE;
+    border-style: groove;
+    border-color: grey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    display: inline-block;
+  }
