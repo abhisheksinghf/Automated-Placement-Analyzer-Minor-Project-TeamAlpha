@@ -127,3 +127,81 @@ body {
 .services .iconbox-grey .icon {
   background-color: #3a3b3e;
 }
+
+
+/* File-Upload.html */
+#upload-area {
+  margin: 15px;
+  border: 2px dashed #444;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#file-list {
+  list-style: none;
+  padding: 0;
+}
+
+.file-item {
+  background-color: #333;
+  border: 1px solid #444;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-bar-container {
+  background-color: #444;
+  height: 10px;
+  border-radius: 5px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #007BFF;
+  height: 100%;
+  width: 0;
+}
+
+.remove-button {
+  background-color: #D9534F;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #C9302C;
+}
+
+.btn-analyze {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.btn-analyze:hover {
+  background-color: #0056b3;
+}
+
+#file-input {
+  display: none; /* Hide the file input */
+}
+
+#file-label {
+  background-color: #D9534F; /* Red color for the button */
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#file-label:hover {
+  background-color: #C9302C;
+}
