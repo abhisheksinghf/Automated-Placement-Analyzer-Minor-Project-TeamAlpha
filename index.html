@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Analysis</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>PDF Analysis</h1>
+
+    <!-- Input for manually selecting PDF files -->
+    <input type="file" id="file-input" accept=".pdf" multiple>
+    
+    <!-- Button to trigger analysis -->
+    <button id="analyze-btn">Analyze PDFs</button>
+
+    <!-- Display results -->
+    <div id="pdf-results"></div>
+    
+    <script src="js/process.js"></script>
+</body>
+</html>
